@@ -1,8 +1,8 @@
 import sys
 from utils import HeaderChecks
 
-
 (options, args) = HeaderChecks().parse()
+
 if(options.name == None or options.desc == None):
     print ("error (missing arguments)\t:\t there are some missing arguments -- python create.py -h")
     sys.exit(0)
