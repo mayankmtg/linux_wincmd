@@ -13,6 +13,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 [Commitpush](#commitpush)<br>
 [Ls](#ls)<br>
 [Cvenv](#cvenv)<br>
+[Avenv](#avenv)<br>
 
 
 ## Commands
@@ -41,6 +42,13 @@ ls <directory_name>
 create virtual environment
 ```
 cvenv <environment_name>
+```
+
+
+### avenv
+activate existing virtual environment
+```
+avenv <venv-folder>
 ```
 
 
