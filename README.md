@@ -14,6 +14,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 [Ls](#ls)<br>
 [Cvenv](#cvenv)<br>
 [Avenv](#avenv)<br>
+[Lvenv](#lvenv)<br>
 
 
 ## Commands
@@ -49,6 +50,13 @@ cvenv <environment_name>
 activate existing virtual environment
 ```
 avenv <venv-folder>
+```
+
+
+### lvenv
+list existing venvs
+```
+lvenv
 ```
 
 
