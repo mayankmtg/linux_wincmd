@@ -1,16 +1,8 @@
-from optparse import OptionParser
 import sys
 from utils import HeaderChecks
 
-parser = OptionParser()
-parser.add_option("-n", "--name", dest="name", help="name of command")
-parser.add_option("-d", "--desc", dest="desc", help="Description of the command")
-parser.add_option("-e", "--example", dest="example", help="An example usage of the command")
-parser.add_option("-t", "--head", dest ="head", help="Header of the file")
 
-(options, args) = parser.parse_args()
-HeaderChecks(options, args)
-sys.exit(0)
+(options, args) = HeaderChecks().parse()
 if(options.name == None or options.desc == None):
     print ("error (missing arguments)\t:\t there are some missing arguments -- python create.py -h")
     sys.exit(0)
