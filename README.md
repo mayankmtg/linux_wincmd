@@ -12,6 +12,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 [Touch](#touch)<br>
 [Commitpush](#commitpush)<br>
 [Ls](#ls)<br>
+[Cvenv](#cvenv)<br>
 
 
 ## Commands
@@ -33,6 +34,13 @@ commitpush <username>[mayankmtg, mayank.mohindra] "message"
 list the passed directory
 ```
 ls <directory_name>
+```
+
+
+### cvenv
+create virtual environment
+```
+cvenv <environment_name>
 ```
 
 
