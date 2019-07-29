@@ -10,6 +10,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 
 ## Table of contents
 [Touch](#touch)
+[Commitpush](#commitpush)
 
 
 ## Commands
@@ -17,6 +18,13 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 create new blank files with filename
 ```
 touch <filename>
+```
+
+
+### commitpush
+committing and pushing changes to the present branch from a user account
+```
+commitpush <username>[mayankmtg, mayank.mohindra] "message"
 ```
 
 

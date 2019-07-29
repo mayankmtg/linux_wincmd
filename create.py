@@ -46,4 +46,4 @@ with open(header_name) as f:
 with open("commands/" + options.name.lower() + ".bat", 'w') as f:
     f.write(command_header)
     f.write("@echo off\n")
-print ("created command template")
+print ("-- \t created command template \t --")
