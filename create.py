@@ -14,7 +14,7 @@ with open("README.md") as f:
         if(line == "## Table of contents\n"):
             content_flag = True
         if(content_flag and line == "\n"):
-            file_content += "[" + options.name.title() + "](#" + options.name.lower() + ")\n"
+            file_content += "[" + options.name.title() + "](#" + options.name.lower() + ")<br>\n"
             content_flag = False
         file_content += line
 

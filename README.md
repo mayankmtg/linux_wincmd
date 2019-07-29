@@ -9,8 +9,8 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 ```
 
 ## Table of contents
-[Touch](#touch)
-[Commitpush](#commitpush)
+[Touch](#touch)<br>
+[Commitpush](#commitpush)<br>
 
 
 ## Commands
