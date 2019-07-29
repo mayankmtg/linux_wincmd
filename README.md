@@ -11,6 +11,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 ## Table of contents
 [Touch](#touch)<br>
 [Commitpush](#commitpush)<br>
+[Ls](#ls)<br>
 
 
 ## Commands
@@ -25,6 +26,13 @@ touch <filename>
 committing and pushing changes to the present branch from a user account
 ```
 commitpush <username>[mayankmtg, mayank.mohindra] "message"
+```
+
+
+### ls
+list the passed directory
+```
+ls <directory_name>
 ```
 
 
