@@ -16,6 +16,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 [Avenv](#avenv)<br>
 [Lvenv](#lvenv)<br>
 [Forloop](#forloop)<br>
+[Home](#home)<br>
 
 
 ## Commands
@@ -68,5 +69,12 @@ forloop n
 ```
 There will be a prompt for the command
 '%i' can be used to access the counter for the loop
+
+
+### home
+command to redirect me to a custom home directory
+```
+home
+```
 
 
