@@ -1,4 +1,4 @@
-# linux_wincmd
+# wincmd
 
 Package contains very helpful cmd command examples
 
