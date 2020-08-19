@@ -17,6 +17,7 @@ python create.py -n <command_name> -d <command-description> [-e] "example string
 [Lvenv](#lvenv)<br>
 [Forloop](#forloop)<br>
 [Home](#home)<br>
+[Clang-Fixall](#clang-fixall)<br>
 
 
 ## Commands
@@ -75,6 +76,13 @@ There will be a prompt for the command
 command to redirect me to a custom home directory
 ```
 home
+```
+
+
+### clang-fixall
+Apply clang-format fixes for all files changed from a branch
+```
+clang-fixall master
 ```
 
 
